@@ -13,6 +13,6 @@ def disk():
 
 	return {
 		"total_gb": round(total/1073741824,2),
-		"used_gb": round (used/10737418224,2),
+		"used_gb": round(used/10737418224,2),
 		"free_gb": round(free/1073741824,2)
 	}
